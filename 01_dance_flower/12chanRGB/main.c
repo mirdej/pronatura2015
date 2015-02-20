@@ -54,7 +54,7 @@ ISR(TIMER1_COMPA_vect) {
 
 	if (dimmer_values[6] >= PdmCompare) d_state|= (1<<2); 
 	if (dimmer_values[7] >= PdmCompare) d_state|= (1<<3); 
-	if (dimmer_values[8] >= PdmCompare) d_state|=  (1<4);       
+	if (dimmer_values[8] >= PdmCompare) d_state|=  (1<<4);       
 	if (dimmer_values[9] >= PdmCompare) d_state|=  (1<<5); 
 	if (dimmer_values[10] >= PdmCompare) d_state|= (1<<6); 
 	if (dimmer_values[11] >= PdmCompare) d_state|= (1<<7); 
