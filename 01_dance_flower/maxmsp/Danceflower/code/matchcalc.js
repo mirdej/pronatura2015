@@ -24,12 +24,16 @@ function msg_int (n) {
 		outlet(1,"bang");
 		idx = 0;
 	} 
-} else {
-		for (var n = 1; n < idx+1; n++) {
-			outlet(0,"target",n);
-			outlet(0,"petals",2);
+  } else {
+	if (idx) {
+		if (n != e[idx-1]) {
+			for (var n = 1; n < idx+1; n++) {
+				outlet(0,"target",n);
+				outlet(0,"petals",2);
+			}
+			idx = 0;
 		}
-		idx = 0;
+	}
 	}
 }
 
