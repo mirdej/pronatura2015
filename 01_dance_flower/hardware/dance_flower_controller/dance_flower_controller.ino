@@ -67,8 +67,6 @@ void loop() {
 
         
     }    
-  
-    delay(1);              // give some time for sending, otherwhise the MIDI queue could fill up
-}
+ }
 
 
