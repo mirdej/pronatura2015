@@ -17,8 +17,10 @@
 
 MIDIMessage message;        
 
-
-
+unsigned int lastMillis;
+unsigned char lastButton1;
+unsigned char lastButton2;
+unsigned char button;
 unsigned int sensorValue[4];         // variable to store the value coming from the sensor
 unsigned int sentValue[4];         // we only want to send data when there's something changing
                              // so we have to keep track of the last value that was sent to the host
@@ -32,7 +34,7 @@ unsigned int sentValue[4];         // we only want to send data when there's som
 void setup() {               
   // initialize SPI:
    Serial.begin(9600);
-   
+   PORTB = 3;
 }
 
 
@@ -67,6 +69,24 @@ void loop() {
 
         
     }    
+    
+    if (millis()-lastMillis > 10) {
+      button = PINB & 1;
+      if (lastButton1 != button) {
+        if (button) MIDI.write(MIDI_NOTEOFF,1,0);     // put new control change message into MIDI sending queue
+        else MIDI.write(MIDI_NOTEON,1,127);     // put new control change message into MIDI sending queue
+        lastButton1 = button;
+      }
+      
+      button = PINB & 2;
+      if (lastButton2 != button) {
+        if (button) MIDI.write(MIDI_NOTEOFF,2,0);     // put new control change message into MIDI sending queue
+        else MIDI.write(MIDI_NOTEON,2,127);     // put new control change message into MIDI sending queue
+        lastButton2 = button;
+   }
+
+      lastMillis = millis();
+    }
  }
 
 
