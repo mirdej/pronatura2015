@@ -1,5 +1,5 @@
 Les prairies fleuries se sont répandues en Suisse
-lorsque l'Homme inventa la faux, il y a …
+lorsque l'Homme inventa la faux\, il y a …
 1000 ans
 2500 ans
 5000 ans
@@ -19,21 +19,21 @@ est recouvert de prairies fleuries?
 50%
 1
 
-Combien d'animaux, des plus minuscules aux plus
-grands, peut abriter 1 m2 de prairie fleurie?
+Combien d'animaux\, des plus minuscules aux plus
+grands\, peut abriter 1 m2 de prairie fleurie?
 2600
 260'000
 260 millions
 3
 
-Depuis 1950, quel pourcentage des 
+Depuis 1950\, quel pourcentage des 
 prairies fleuries de Suisse a disparu ?
 Moins de 10%
 50%
 Plus de 90%
 3
 
-Parmi les 202 espèces de papillons de Suisse, combien 
+Parmi les 202 espèces de papillons de Suisse\, combien 
 vivent principalement dans les prairies fleuries?
 20
 40
@@ -69,14 +69,14 @@ les plantes d'1m2 de gazon en un an?
 2
 
 Combien de fois par an les prairies fleuries
-sont-elles fauchées, au maximum?
+sont-elles fauchées\, au maximum?
 3
 6
 9
 1
 
 Combien de fois par an les prairies 
-engraissées sont-elles fauchées, en moyenne?
+engraissées sont-elles fauchées\, en moyenne?
 3
 6
 9
@@ -89,7 +89,7 @@ peuvent vivre dans 100 m2 de prairie fleurie?
 100
 3
 
-Si une espèce de plante disparaît de la prairie fleurie,
+Si une espèce de plante disparaît de la prairie fleurie\,
 combien d’espèces animales sont à leur tour menacées?
 0
 2
