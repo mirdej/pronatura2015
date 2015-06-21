@@ -2,7 +2,7 @@
 	"name" : "Danceflower",
 	"version" : 1,
 	"creationdate" : -787094455,
-	"modificationdate" : -787073478,
+	"modificationdate" : -777202461,
 	"viewrect" : [ 25.0, 69.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -71,6 +71,16 @@
 ,
 		"data" : 		{
 			"questions.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"questions-de.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"questions-fr.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
